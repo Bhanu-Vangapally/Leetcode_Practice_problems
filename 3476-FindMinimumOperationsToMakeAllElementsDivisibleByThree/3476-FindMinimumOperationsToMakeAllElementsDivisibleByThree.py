@@ -1,0 +1,9 @@
+# Last updated: 12/28/2025, 4:51:40 PM
+class Solution:
+    def minimumOperations(self, nums: List[int]) -> int:
+        c=0
+        for i in nums:
+            if i%3!=0:
+               c+=1
+        return c
+                
